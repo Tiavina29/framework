@@ -19,4 +19,8 @@ public class Mapping {
     public void setMethod(String method) {
         this.method = method;
     }
+    public Mapping(String className,String method){
+        this.setClassName(className);
+        this.setMethod(method);
+    }
 }
